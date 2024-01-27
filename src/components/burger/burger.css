@@ -1,0 +1,128 @@
+
+
+ .menu-toggle {
+  display: block;
+  cursor: pointer;
+}
+
+.burger {
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  margin-left:98%;
+  margin-top: 15px;
+ 
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #de0d0d;
+  position: absolute;
+  transition: 0.4s;
+  z-index: 1; 
+ 
+}
+
+.bar1 {
+  top: 0;
+}
+
+.bar2 {
+  top: 8px;
+  width:70%;
+}
+
+.bar3 {
+  top: 16px;
+ 
+}
+
+.bar.open {
+  background-color: #c31f1f;
+}
+.bar.open.bar1{
+  transform: rotate(45deg)  ;
+}
+.bar.open.bar2{
+  opacity:0;
+
+}
+.bar.open.bar3{
+  transform: rotate(-45deg)translate(11px ,-12px) ;
+}
+.menu {
+  position: absolute;
+  top: 80px;
+  right:-300px; 
+  width: 250px;
+  height: 20%;
+  background-color:transparent;
+  padding: 20px;
+  transition: 0.4s;
+  text-align: center;
+  color: white;
+}
+
+.menu.open {
+  right: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px;
+}
+
+.menu a {
+  color: #070707;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  
+}
+
+
+  /* Pour les écrans de petite taille comme les téléphones et tablettes  */
+  @media (max-width: 1023px)and (max-width: 767px) {
+   nav ul li {
+      text-align: center;
+      display: block;
+      position: relative;
+      margin-left: 100%;
+      transform: translate(-50%, -50%); 
+      background-color: #d27559;
+      border-radius: 9999px;
+    
+     
+    }
+    .burger{
+      margin-left :50%;
+      margin-bottom:50px;
+      
+    }
+    .menu{
+     position: absolute;
+      right:-350px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      background-color: transparent;
+   
+    }
+  .menu a{
+    color: white;
+ 
+  
+  }
+  
+  
+}
+  
+  
+  
