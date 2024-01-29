@@ -2,10 +2,10 @@ import React from 'react';
 
 const TransfertAffaire = () => {
     return (
-        <section className="client_section layout_padding">
+        <section className="affaire_client_section layout_padding">
         <div className="container ">
           <div className="heading_container heading_center">
-            <h2>transfert d'affaires</h2>
+            <h2>Transfert d'affaires</h2>
           </div>
           <div
             id="carouselExampleControls"

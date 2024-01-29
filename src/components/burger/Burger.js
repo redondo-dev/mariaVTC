@@ -32,7 +32,7 @@ const Burger = () => {
             <Link to="/client">Clients</Link>
           </li> 
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/services">Service</Link>
           </li>
         </ul>
       </nav>

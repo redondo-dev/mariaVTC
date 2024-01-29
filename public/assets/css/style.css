@@ -8,11 +8,13 @@ body {
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
+
 }
 
 .layout_padding2 {
   padding-top: 45px;
   padding-bottom: 45px;
+
 }
 
 .layout_padding2-top {
@@ -72,66 +74,7 @@ body {
           transform: translateX(-50%);
 }
 
-/*header section*/
-.hero_area {
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-}
 
-.hero_bg_box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.hero_bg_box .img-box {
-  width: 100%;
-}
-
-.hero_bg_box .img-box img {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.hero_bg_box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.35)));
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.35));
-}
-
-.sub_page .hero_area {
-  min-height: auto;
-}
-
-.sub_page .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
-  padding-bottom: 21px;
-}
-
-.hero_area.sub_pages {
-  height: auto;
-}
 
 .header_section {
   padding: 0;
@@ -178,10 +121,18 @@ body {
 }
 
 /*end header section*/
+.about_section{
+  background-image: url(../images/about-img.jpg) ;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+
+        
 }
 
 .about_section .img_container .img-box img {
@@ -189,12 +140,13 @@ body {
 }
 
 .about_section .detail-box {
-  background-color: #ffffff;
+  background-color: #ffffff!Important;
   padding: 45px 25px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
   position: relative;
   margin-left: -45px;
+
 }
 
 .about_section .detail-box p {
@@ -272,8 +224,7 @@ body {
   border-color: #f1db25;
   color: #f1db25;
 }
-
-.client_section {
+.avis_client_section  {
   text-align: center;
   background-image:url("https://media.istockphoto.com/id/1187580410/fr/photo/service-d%C3%A9valuation-de-client-heureux-avec-lic%C3%B4ne-de-sourire.jpg?s=612x612&w=0&k=20&c=-2zgs7XSfPNqp34azgJFNUKS2jnd8NUUsVP1I88JcDM=");
   background-repeat: no-repeat;
@@ -282,6 +233,31 @@ body {
   z-index: -99;
 
   
+}
+
+.aero_client_section {
+  text-align: center;
+  background-image:url("https://media.istockphoto.com/id/1147509983/fr/photo/fond-flou-da%C3%A9roport.jpg?s=612x612&w=0&k=20&c=56k1Vc1SrIgyC-B0GLtMP_91OESfQwwO8oAb4pk_O5A=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -99; 
+}
+.affaire_client_section {
+  text-align: center;
+  background-image:url("https://media.istockphoto.com/id/1449538590/fr/photo/le-gratte-ciel-de-verre-cma-cgm-mesure-147-m%C3%A8tres-de-haut-et-est-situ%C3%A9-au-c%C5%93ur-du.jpg?s=612x612&w=0&k=20&c=Cg_5Awa6wz83wTEb5PZY7WNsXgXiR0GGSriIslvMssM=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -99; 
+}
+.visite_client_section {
+  text-align: center;
+  background-image:url("https://media.istockphoto.com/id/1055587654/fr/photo/centre-ville-de-marseille.jpg?s=612x612&w=0&k=20&c=PLjCKs4aHRMHU7hoo3Xp_ZpNZxOCqXl05iHWkotAszY=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -99; 
 }
 
 .client_section #carouselExampleControls {
@@ -324,15 +300,22 @@ body {
   margin-top: 20px;
 }
 
-.client_section .box .detail-box h4 {
+.aero_client_section .box .detail-box h4,
+.visite_client_section .box .detail-box h4 , 
+.affaire_client_section .box .detail-box h4 
+{
   font-weight: bold;
   font-size: 18px;
   padding: 0 10px;
   border-bottom: 1px solid #ffffff;
+  color: #ffffff;
 }
 
-.client_section .box .detail-box p {
+.aero_client_section .box .detail-box p,
+.visite_client_section .box .detail-box p, 
+.affaire_client_section .box .detail-box p {
   margin-top: 10px;
+  color: #ffffff;
 }
 
 .client_section .carousel_btn-box {

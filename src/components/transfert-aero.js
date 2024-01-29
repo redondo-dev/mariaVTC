@@ -2,7 +2,7 @@ import React from 'react';
 
 const TransfertAero = () => {
     return (
-        <section className="client_section layout_padding">
+        <section className="aero_client_section layout_padding">
         <div className="container ">
           <div className="heading_container heading_center">
             <h2>transfert Aeroportuaire</h2>

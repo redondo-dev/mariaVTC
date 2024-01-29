@@ -2,10 +2,10 @@ import React from 'react';
 
 const VisiteToursitique = () => {
     return (
-        <section className="client_section layout_padding">
+        <section className="visite_client_section layout_padding">
         <div className="container ">
           <div className="heading_container heading_center">
-            <h2>Visite touristique</h2>
+            <h2>Visites touristiques</h2>
           </div>
           <div
             id="carouselExampleControls"
