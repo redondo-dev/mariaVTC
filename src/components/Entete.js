@@ -14,7 +14,7 @@ const Entete = () => {
             </a>
             <a href="" className="contact_link2">
               <i className="fa fa-phone" aria-hidden="true" />
-              <span>Call : +33-0616372651</span>
+              <span>Call:+33-0616372651</span>
             </a>
             <a href="" className="contact_link3">
               <i className="fa fa-envelope" aria-hidden="true" />

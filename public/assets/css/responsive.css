@@ -113,6 +113,9 @@
   .team_section .box .img-box img {
     height:50%;
   }
+  .button{
+    margin-left:30%;
+  }
 }
 
 @media (max-width: 480px) {}

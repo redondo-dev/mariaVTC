@@ -1,23 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleUp } from '@fortawesome/free-solid-svg-icons'; 
+
+
+
 const Footer = () => {
     return (
 <>
 <section className="info_section ">
   <div className="container">
     <div className="row">
-      {/* <div className="col-md-4">
+       <div className="col-md-3">
         <div className="info_logo">
           <a className="navbar-brand" href="index.html">
-            <span>Guarder</span>
+            <span>Amvtc</span>
           </a>
           <p>
-            dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam,
-            quisdotempor incididunt r
+           Nous sommes votre partenaire de confiance pour des deplacments confortables et securisés en tant que prestataire
           </p>
         </div>
-      </div> */}
-      <div className="col-md-4">
+      </div> 
+      <div className="col-md-3">
         <div className="info_links">
           <h5>Liens importants</h5>
           <ul>
@@ -37,7 +41,7 @@ const Footer = () => {
         </ul>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-3">
         <div className="info_info">
           <h5>Contact Us</h5>
         </div>
@@ -47,7 +51,7 @@ const Footer = () => {
           </a>
           <a Link to="/" className="">
             <i className="fa fa-phone" aria-hidden="true" />
-            <span>Tel: +0033-616372651</span>
+            <span>Tel:+33-0616372651</span>
           </a>
           <a Link to="/" className="">
             <i className="fa fa-envelope" aria-hidden="true" />
@@ -55,13 +59,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-3">
         <div className="info_form ">
          
-          <form action="#">
-          
-            <button>Subscribe</button>
-          </form>
           <div className="social_box">
             <a Link to="/">
               <i className="fa fa-facebook" aria-hidden="true" />
@@ -76,6 +76,11 @@ const Footer = () => {
               <i className="fa fa-instagram" aria-hidden="true" />
             </a>
           </div>
+          <form action="#">
+          <button className='button'>
+          <FontAwesomeIcon icon={faChevronCircleUp}></FontAwesomeIcon>  Revenir en haut
+       </button> 
+        </form>
         </div>
       </div>
     </div>

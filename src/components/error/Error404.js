@@ -8,6 +8,13 @@ const Error404 = () => {
   return (
     <Box className="error-container">
       <Container className="error-content">
+      <Grid item xs={12} md={6}>
+            <img
+              src="https://cdn.pixabay.com/photo/2017/03/09/12/31/error-2129569__340.jpg"
+              alt="error404"
+              className="error-image"
+            />
+          </Grid>
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
             <Typography variant="h1" className="error-title">
@@ -27,13 +34,7 @@ const Error404 = () => {
             </Button>
             </div>
           </Grid>
-          <Grid item xs={12} md={6}>
-            <img
-              src="https://cdn.pixabay.com/photo/2017/03/09/12/31/error-2129569__340.jpg"
-              alt="error404"
-              className="error-image"
-            />
-          </Grid>
+          
         </Grid>
       </Container>
     </Box>
