@@ -10,7 +10,7 @@ const Entete = () => {
         <div className="container-fluid">
           <div className="contact_link-container">
             <a href="" className="contact_link1">
-             <img src="assets/images/am-vtc-high.png" with="50px" height="50px"/>
+             <img className="logo"src="assets/images/am-vtc-high.png" with="50px" height="50px"/>
             </a>
             <a href="" className="contact_link2">
               <i className="fa fa-phone" aria-hidden="true" />
