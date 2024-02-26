@@ -5,7 +5,7 @@ const Avisclients = () => {
         <section className="avis_client_section layout_padding ">
         <div className="container ">
           <div className="heading_container heading_center">
-            <h2>Avis de nos clients</h2>
+            <h2 className='titre'>Avis de nos clients</h2>
           </div>
           <div
             id="carouselExampleControls"

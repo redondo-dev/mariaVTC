@@ -47,7 +47,7 @@ const Contact = () => {
       <div className="contact_bg_box"></div>
       <div className="container">
         <div className="heading_container heading_center">
-          <h2> Contact us </h2>
+          <h2 className='titre'> Contact us </h2>
         </div>
         <div className="">
           <div className="row">
