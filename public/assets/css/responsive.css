@@ -88,12 +88,16 @@
 }
 
 @media (max-width: 576px) {
- .header_top span a {
+ .header_top span  {
     display: flex;
     justify-content: center;
     justify-items: center;
+    font-size: 11px;
     
   
+  }
+  .logo{
+    margin-right:25px;
   }
  .img-box img{
      height:300px; 
@@ -113,14 +117,17 @@
   .team_section .box .img-box img {
     height:50%;
   }
-  .button{
-    margin-left:30%;
+  .info_section .info_form form button{
+    margin-left:20%;
   }
+  
 }
 
 @media (max-width: 480px) {}
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+ 
+}
 
 @media (max-width: 376px) {}
 

@@ -17,7 +17,7 @@ const Footer = () => {
             <span>Amvtc</span>
           </a>
           <p>
-           Nous sommes votre partenaire de confiance pour des deplacments confortables et securisés en tant que prestataire
+           Nous sommes votre partenaire de confiance pour des deplacements confortables et securisés en tant que prestataire
           </p>
         </div>
       </div> 
@@ -76,8 +76,8 @@ const Footer = () => {
               <i className="fa fa-instagram" aria-hidden="true" />
             </a>
           </div>
-          <form action="#">
-          <button className='button'>
+          <form className="retour"action="#">
+          <button>
           <FontAwesomeIcon icon={faChevronCircleUp}></FontAwesomeIcon>  Revenir en haut
        </button> 
         </form>

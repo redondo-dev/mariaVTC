@@ -5,7 +5,7 @@ const Team = () => {
         <section className="team_section layout_padding">
         <div className="container">
           <div className="heading_container heading_center">
-            <h2>Notre Equipe</h2>
+            <h2 className='titre'>Notre Equipe</h2>
             <p>
             Notre équipe, bien que modeste, est guidée par un engagement inébranlable envers votre satisfaction. 
             Derrière le volant, c'est Mouss, notre chauffeur dévoué et passionné.
@@ -17,7 +17,7 @@ const Team = () => {
             <div className="col-md-4 col-sm-6 mx-auto ">
               <div className="box">
                 <div className="img-box">
-                  <img src="assets/images/mouss.jpg" height="430px" alt="" />
+                  <img src="assets/images/moussvtc1.jpg" height="430px"  alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Mouss</h5>

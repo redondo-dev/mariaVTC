@@ -43,11 +43,13 @@ body {
           flex-direction: column;
 }
 
-.heading_container h2 {
+.heading_container .titre {
   position: relative;
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 10px;
+  color: #0c0c0c !important;
+ 
 }
 
 .heading_container h2::before {
@@ -59,6 +61,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+ 
 }
 
 .heading_container.heading_center {
@@ -72,8 +75,11 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+          
 }
-
+.heading_container.heading_center .titre{
+  color: #0c0c0c !important;
+}
 
 
 .header_section {
@@ -238,27 +244,35 @@ body {
 
 .aero_client_section {
   text-align: center;
-  background-image:url("https://media.istockphoto.com/id/1147509983/fr/photo/fond-flou-da%C3%A9roport.jpg?s=612x612&w=0&k=20&c=56k1Vc1SrIgyC-B0GLtMP_91OESfQwwO8oAb4pk_O5A=");
+  /* background-image:url("https://media.istockphoto.com/id/1147509983/fr/photo/fond-flou-da%C3%A9roport.jpg?s=612x612&w=0&k=20&c=56k1Vc1SrIgyC-B0GLtMP_91OESfQwwO8oAb4pk_O5A=");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -99; 
+  z-index: -99;  */
+   background-color: rgb(19, 22, 214);
+  
+}
+
+.aero_client_section .box .detail-box p{
+  color: #000000 !important;
 }
 .affaire_client_section {
   text-align: center;
-  background-image:url("https://media.istockphoto.com/id/1449538590/fr/photo/le-gratte-ciel-de-verre-cma-cgm-mesure-147-m%C3%A8tres-de-haut-et-est-situ%C3%A9-au-c%C5%93ur-du.jpg?s=612x612&w=0&k=20&c=Cg_5Awa6wz83wTEb5PZY7WNsXgXiR0GGSriIslvMssM=");
+  /* background-image:url("https://media.istockphoto.com/id/1449538590/fr/photo/le-gratte-ciel-de-verre-cma-cgm-mesure-147-m%C3%A8tres-de-haut-et-est-situ%C3%A9-au-c%C5%93ur-du.jpg?s=612x612&w=0&k=20&c=Cg_5Awa6wz83wTEb5PZY7WNsXgXiR0GGSriIslvMssM=");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -99; 
+  z-index: -99;  */
+  background-color: #0c0c0c !important ;
 }
 .visite_client_section {
   text-align: center;
-  background-image:url("https://media.istockphoto.com/id/1055587654/fr/photo/centre-ville-de-marseille.jpg?s=612x612&w=0&k=20&c=PLjCKs4aHRMHU7hoo3Xp_ZpNZxOCqXl05iHWkotAszY=");
+  /* background-image:url("https://media.istockphoto.com/id/1055587654/fr/photo/centre-ville-de-marseille.jpg?s=612x612&w=0&k=20&c=PLjCKs4aHRMHU7hoo3Xp_ZpNZxOCqXl05iHWkotAszY=");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -99; 
+  z-index: -99;  */
+  background-color: #0c0c0c !important ;
 }
 
 .client_section #carouselExampleControls {
@@ -301,6 +315,11 @@ body {
   margin-top: 20px;
 }
 
+.heading_container h2
+{
+  color: #ffffff !important;
+}
+
 .aero_client_section .box .detail-box h4,
 .visite_client_section .box .detail-box h4 , 
 .affaire_client_section .box .detail-box h4 
@@ -309,14 +328,16 @@ body {
   font-size: 18px;
   padding: 0 10px;
   border-bottom: 1px solid #ffffff;
-  color: #ffffff;
+  color: #ea1919;
+  margin-top: 10px;
 }
 
-.aero_client_section .box .detail-box p,
+
 .visite_client_section .box .detail-box p, 
 .affaire_client_section .box .detail-box p {
   margin-top: 10px;
-  color: #ffffff;
+  color: #ffff !important;
+  font-size:24px ;
 }
 
 .client_section .carousel_btn-box {
@@ -634,7 +655,7 @@ body {
   background: #f2552a;
   border-radius: 30px;
   margin-top: 15px;
-  text-transform: uppercase;
+
 }
 
 .info_section .info_form .social_box {
