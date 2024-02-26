@@ -5,7 +5,7 @@ const TransfertAero = () => {
         <section className="aero_client_section layout_padding">
         <div className="container ">
           <div className="heading_container heading_center">
-            <h2>transfert Aeroportuaire</h2>
+            <h2 className="titre">transfert Aeroportuaire</h2>
           </div>
           <div
             id="carouselExampleControls"

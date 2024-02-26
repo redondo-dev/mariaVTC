@@ -47,7 +47,7 @@ const Contact = () => {
       <div className="contact_bg_box"></div>
       <div className="container">
         <div className="heading_container heading_center">
-          <h2 className='titre'> Contact us </h2>
+          <h2 className="titre"> Contact us </h2>
         </div>
         <div className="">
           <div className="row">
@@ -126,7 +126,11 @@ const Contact = () => {
         autoHideDuration={5000}
         onClose={handleCloseSnackbar}
         message=" 🙂,Votre message a bien été envoyé "
-        sx={{ backgroundColor: "#32de84", marginBottom: "100px" ,marginRight: "180px"}}
+        sx={{
+          backgroundColor: "#32de84",
+          marginBottom: "100px",
+          marginRight: "180px",
+        }}
       />
     </section>
   );
